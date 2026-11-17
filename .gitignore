@@ -1,0 +1,7 @@
+.vscode
+
+# 源码与工程都在 .build 里，所以不能整目录忽略 .build，只忽略编译产物
+.build/obj/
+.build/bin/
+SmarterTrading.dll
+SmarterTrading.pdb

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Manifest>
+  <ID>smarter_trading</ID>
+  <Name>更聪明的交易 Smarter Trading</Name>
+  <Author>遇欲</Author>
+  <ModVersion>1.0.8</ModVersion>
+  <Description>两个改动，都只动「原版本来就该更聪明」的地方：
+
+1）预算不足时不再追问：顾客剩下的钱低于本次实际成交均价时，交易结束后改用「成交。/ 我要的就是这个。/ 下次见。」这组收尾台词，而不是继续问「就这些吗？」。
+
+2）水直接灌进顾客自带的容器：顾客想买水时，柜台上他们那只「未拥有」的空瓶/水壶原本完全无法互动。现在可以直接把自己的水倒进去——灌多少依旧按原版规则（不超过对方容器剩下的容积、不超过你水源里剩下的水），只按水计价，瓶子始终归顾客，不用再「先买下空瓶、再卖回整瓶水」。灌装按「正常卖价」结算：缺水等市场事件、零售加价、小费全部计入，与正常卖一瓶水同价；这份加价同时写进容器自身的估价，所以「灌装收费 + 容器价 = 你买回这只瓶子的价格」，不会变成刷钱循环。拖动水容器对准顾客的瓶子时，鼠标旁的提示会像议价平板那样分条列出：价格、品相、市场与商人（零售加价/小费/缺水事件）、顾客预算、预计卖出。顾客把灌过水的容器买回来时，预算按买回价全额补足（原版只按 budgetConversionRate 折算退还，默认五折），中途不会蒸发掉容器那一份差价。</Description>
+  <GameVersions>
+    <Version>0.46</Version>
+  </GameVersions>
+  <Prerequisites />
+  <Assemblies>
+    <Assembly>SmarterTrading.dll</Assembly>
+  </Assemblies>
+  <Capabilities />
+</Manifest>

@@ -1,0 +1,14 @@
+﻿# English localization - Smarter Trading
+cfg_enabled,Enable Smarter Trading
+cfg_enabled_tip,Master switch. Turning this off disables both features.
+cfg_budget_line,Stop asking "Is that all?" when the budget is short
+cfg_budget_line_tip,When the customer has less money left than the average price of what you just sold them, they use the vanilla wrap-up lines ("Done." / "That's all I need." / "See you next time.") instead of asking for more.
+cfg_pour,Pour water into the customer's own container
+cfg_pour_tip,When a customer wants to buy water, you can pour your own water straight into their unowned empty bottle or jug on the counter. Volume still follows vanilla rules (target free capacity and source remaining water), only the water is charged, and the container always stays theirs.
+cfg_verbose,Verbose logging
+cfg_verbose_tip,Print pour and dialogue-replacement details for troubleshooting.
+ui_and_sell,And Sell
+ui_pour_price,Price {0:0.#}/L | {1:0.##}L left = {2}
+ui_pour_now,Price {0:0.#}/L | pouring {1:0.##}L = {2}
+ui_pour_price_full,Price {0:0.#}/L | container already full
+ui_pour_expected,Expected sale
